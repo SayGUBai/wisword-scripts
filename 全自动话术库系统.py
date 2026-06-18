@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-话搭子 · 全自动话术库系统 - 主程序
+Z.Talk · 全自动话术库系统 - 主程序
 自动运行，无需人工干预
 """
 
@@ -11,7 +11,7 @@ import time
 from datetime import datetime
 
 # ==================== 配置 ====================
-ROOT_DIR = r"C:\Users\W\话搭子话术库"
+ROOT_DIR = r"C:\Users\W\Z.Talk话术库"
 DATA_FILE = os.path.join(ROOT_DIR, "话术数据库.json")
 LOG_FILE = os.path.join(ROOT_DIR, "更新日志.log")
 CHECKPOINT_FILE = os.path.join(ROOT_DIR, "checkpoint.json")
@@ -159,7 +159,7 @@ if __name__ == '__main__':
     MINUTES_BETWEEN_RUNS = 6  # 每6小时运行一次
     
     print("="*60)
-    print("  话搭子 · 全自动话术库系统")
+    print("  Z.Talk · 全自动话术库系统")
     print("="*60)
     print(f"  数据目录: {ROOT_DIR}")
     print(f"  运行间隔: 每{MINUTES_BETWEEN_RUNS}小时")

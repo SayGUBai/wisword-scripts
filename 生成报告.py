@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-话搭子 · 运行状态报告
+Z.Talk · 运行状态报告
 生成每日更新情况报告
 """
 
@@ -9,19 +9,19 @@ import json
 import os
 from datetime import datetime
 
-DATA_FILE = r"C:\Users\W\话搭子话术库\话术数据库.json"
-LOG_FILE = r"C:\Users\W\话搭子话术库\更新日志.log"
-HEARTBEAT = r"C:\Users\W\话搭子话术库\心跳.txt"
+DATA_FILE = r"C:\Users\W\Z.Talk话术库\话术数据库.json"
+LOG_FILE = r"C:\Users\W\Z.Talk话术库\更新日志.log"
+HEARTBEAT = r"C:\Users\W\Z.Talk话术库\心跳.txt"
 
 def generate_report():
     """生成运行状态报告"""
     now = datetime.now()
     
     print("=" * 60)
-    print("  话搭子 · 高情商话术库 · 运行状态报告")
+    print("  Z.Talk · 高情商话术库 · 运行状态报告")
     print("=" * 60)
     print(f"报告生成时间: {now.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"数据文件路径: C:\\Users\\W\\话搭子话术库\\话术数据库.json")
+    print(f"数据文件路径: C:\\Users\\W\\Z.Talk话术库\\话术数据库.json")
     
     if not os.path.exists(DATA_FILE):
         print("❌ 错误: 找不到话术数据库文件")

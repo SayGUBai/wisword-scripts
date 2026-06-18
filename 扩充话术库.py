@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-话搭子 · 大规模扩充高情商话术库 V2
+Z.Talk · 大规模扩充高情商话术库 V2
 目标：从69条扩充到200+条
 """
 
@@ -10,7 +10,7 @@ import os
 import random
 from datetime import datetime
 
-DATA_FILE = r"C:\Users\W\话搭子话术库\话术数据库.json"
+DATA_FILE = r"C:\Users\W\Z.Talk话术库\话术数据库.json"
 
 # ==================== 新增话术数据 ====================
 
@@ -246,7 +246,7 @@ def run():
     
     # 记录日志
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    log_file = r"C:\Users\W\话搭子话术库\扩充日志.log"
+    log_file = r"C:\Users\W\Z.Talk话术库\扩充日志.log"
     with open(log_file, 'a', encoding='utf-8') as f:
         f.write(f"\n{'='*60}\n")
         f.write(f"大规模扩充: {timestamp}\n")
@@ -259,7 +259,7 @@ def run():
             f.write(f"  ... 共 {len(added)} 条\n")
     
     # 更新心跳
-    heartbeat = r"C:\Users\W\话搭子话术库\心跳.txt"
+    heartbeat = r"C:\Users\W\Z.Talk话术库\心跳.txt"
     with open(heartbeat, 'w', encoding='utf-8') as f:
         f.write(f"last_run: {timestamp}\n")
         f.write(f"status: success\n")

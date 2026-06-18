@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-话搭子 · 每日话术更新脚本
+Z.Talk · 每日话术更新脚本
 每日自动从书籍和网络来源提取/生成新话术
 """
 
@@ -9,8 +9,8 @@ import json
 import os
 from datetime import datetime
 
-DATA_FILE = r"C:\Users\W\话搭子话术库\话术数据库.json"
-LOG_FILE = r"C:\Users\W\话搭子话术库\更新日志.log"
+DATA_FILE = r"C:\Users\W\Z.Talk话术库\话术数据库.json"
+LOG_FILE = r"C:\Users\W\Z.Talk话术库\更新日志.log"
 
 # 每日新增话术模板
 DAILY_SCRIPTS = {
@@ -223,7 +223,7 @@ def log_update(added_count, added_scripts):
 
 
 if __name__ == '__main__':
-    print("  话搭子 · 每日话术更新")
+    print("  Z.Talk · 每日话术更新")
     print("=" * 50)
     
     added = add_daily_scripts()

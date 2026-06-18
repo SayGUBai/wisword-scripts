@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-话搭子 · 每日话术自动更新
+Z.Talk · 每日话术自动更新
 每日自动从书籍和网络来源提取/生成新话术
 """
 
@@ -10,9 +10,9 @@ import os
 import random
 from datetime import datetime
 
-DATA_FILE = r"C:\Users\W\话搭子话术库\话术数据库.json"
-LOG_FILE = r"C:\Users\W\话搭子话术库\每日更新.log"
-HEARTBEAT = r"C:\Users\W\话搭子话术库\心跳.txt"
+DATA_FILE = r"C:\Users\W\Z.Talk话术库\话术数据库.json"
+LOG_FILE = r"C:\Users\W\Z.Talk话术库\每日更新.log"
+HEARTBEAT = r"C:\Users\W\Z.Talk话术库\心跳.txt"
 
 # 每日新增话术模板（每日随机选择）
 DAILY_TEMPLATES = [

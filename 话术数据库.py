@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-话搭子 · 高情商话术库 V1
+Z.Talk · 高情商话术库 V1
 包含分类体系、话术数据、搜索功能
 """
 
@@ -10,7 +10,7 @@ import os
 from datetime import datetime
 
 # 话术库根目录
-ROOT_DIR = r"C:\Users\W\话搭子话术库"
+ROOT_DIR = r"C:\Users\W\Z.Talk话术库"
 DATA_FILE = os.path.join(ROOT_DIR, "话术数据库.json")
 
 # 话术数据结构
@@ -540,7 +540,7 @@ if __name__ == '__main__':
     # 统计
     stats = get_statistics()
     print("=" * 50)
-    print("  话搭子 · 高情商话术库")
+    print("  Z.Talk · 高情商话术库")
     print("=" * 50)
     print(f"\n📊 当前数据量: {stats['total']} 条话术")
     print("\n📁 按场景分布:")
