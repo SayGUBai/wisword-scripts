@@ -1,0 +1,34 @@
+[2026-06-18 22:25:03] ==================================================
+[2026-06-18 22:25:03] Z.Talk 智言 - 多渠道话术采集开始
+[2026-06-18 22:25:03] ==================================================
+[2026-06-18 22:25:03] 现有话术: 244条
+[2026-06-18 22:25:03] 
+--- 采集场景: 破冰开场 ---
+[2026-06-18 22:25:18] 
+--- 采集场景: 暧昧升温 ---
+[2026-06-18 22:25:25]   [微博] 搜索失败: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: /s?wd=site%3Aweibo.com+%E5%8D%87%E6%B8%A9%E8%AF%9D%E6%9C%AF&rn=10 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+[2026-06-18 22:25:29]   [抖音] 搜索失败: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: /s?wd=site%3Adouyin.com+%E6%8E%A8%E6%8B%89%E8%AF%9D%E6%9C%AF&rn=10 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+[2026-06-18 22:25:34] 
+--- 采集场景: 日常聊天 ---
+[2026-06-18 22:25:49] 
+--- 采集场景: 关心体贴 ---
+[2026-06-18 22:26:01] 
+--- 采集场景: 吵架和好 ---
+[2026-06-18 22:26:15] 
+--- 采集场景: 拒绝 ---
+[2026-06-18 22:26:28]   [百度] 搜索失败: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: /s?wd=%E5%A7%94%E5%A9%89%E6%8B%92%E7%BB%9D%E7%9A%84%E8%AF%9D&rn=10 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+[2026-06-18 22:26:28] 
+--- 采集场景: 表白 ---
+[2026-06-18 22:26:36]   [微博] 搜索失败: HTTPSConnectionPool(host='wappass.baidu.com', port=443): Max retries exceeded with url: /static/captcha/tuxing_v2.html?&logid=8061906827687579584&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dsite%253Aweibo.com%2B%25E6%25B5%25AA%25E6%25BC%25AB%25E8%25A1%25A8%25E7%2599%25BD%25E5%258F%25A5%25E5%25AD%2590%26rn%3D10&ext=x9G9QDmMXq%2FNo87gjGO0P8LPsA%2BZiZKwQ%2BLLWX9YaOU9qxHzv8tRxodBg5SciE9xUgqUK9LXd1cIlztrhMwiv7tuYrD5QpMP0klhPMWQVeuq88vjYNjKcIXs1AYHPxXwLHHLl46IaoOp8l%2FC1xtOHwMQi85PCzAojcSf2wQ76KQ%2FbeEmyCSK7MD4TAxYYmR4&signature=efd3bcd4c415d742eca1622f56b8116b&timestamp=1781792796 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+[2026-06-18 22:26:44] 
+--- 采集场景: 维系关系 ---
+[2026-06-18 22:27:00] 
+采集到新话术: 5条
+[2026-06-18 22:27:00] 新增 5 条话术，总计 249 条
+[2026-06-18 22:27:00] 
+--- 搜索表情包资源 ---
+[2026-06-18 22:27:11] 找到 0 个表情包资源
+[2026-06-18 22:27:11] 报告已生成: C:\Users\W\话搭子话术库\采集报告.md
+[2026-06-18 22:27:11] ==================================================
+[2026-06-18 22:27:11] 采集完成! 新增: 5条 | 总计: 249条
+[2026-06-18 22:27:11] ==================================================
